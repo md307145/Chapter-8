@@ -29,8 +29,9 @@ public class ArraymethodDemo433 {
         for (int j = number.length - 1; j >= 0; j--) {
             System.out.println(number[j]);
 
+            sum =  number.length;
+            System.out.println(sum);
         }
-        sum =  entery+entery;
 
     }
 }

@@ -5,7 +5,7 @@ public class ArraymethodDemo433 {
         int[] number = new int[10];
         int entery;
         int count = 0;
-        int sum;
+        int sum=0;
         boolean quit = true;
         Scanner k = new Scanner(System.in);
 
@@ -18,6 +18,7 @@ public class ArraymethodDemo433 {
                 System.out.println("You din't enter all 10 numbers");
                 quit = false;
             }
+            sum=entery+entery;
 
             number[count] = entery;
             count++;
@@ -29,9 +30,10 @@ public class ArraymethodDemo433 {
         for (int j = number.length - 1; j >= 0; j--) {
             System.out.println(number[j]);
 
-            sum =  number.length;
-            System.out.println(sum);
+
+
         }
+        System.out.println(sum);
 
     }
 }
